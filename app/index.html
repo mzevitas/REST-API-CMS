@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>test api</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- build:css assets/css/style.min.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- /build -->
+</head>
+
+<body ng-app="restApi">
+   
+
+<div ng-controller="EventsCtrl">
+    
+    <div ng-repeat="event in events">
+        
+        {{event.eventDate}}
+    </div>
+</div>
+    
+  <!-- build:js assets/js/script.min.js -->
+    <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+    <!-- /build -->
+    
+
+</body>
+
+</html>
